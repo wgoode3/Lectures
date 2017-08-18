@@ -12,7 +12,7 @@
 2. <details>
 	<summary>If you could provide js code directly to a cpu would it run?</summary>
 	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
-	<p><strong>Examples of JS engines<strong></p>
+	<p><strong>Examples of JS engines</strong></p>
 	<ul>
 		<li>JavaScriptCore</li>
 		<li>V8</li>
