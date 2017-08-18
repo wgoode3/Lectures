@@ -25,32 +25,35 @@
 
 ### How do we declare variables?
 ```javascript
-var x = 3;
-
-function test(){
-	var y = 4;
-}
-
-if(false){
-	var z = 5;
-}
-
-for(var i = 0; i < 5; i++){
-}
-
 function hasParameter(w){
 	console.log(w);
 }
 hasParameter(6);
 
-console.log(w);
+var x = 3;
+
 console.log(x);
+
+function test(){
+	var y = 4;
+}
+
 console.log(y);
+
+if(false){
+	var z = 5;
+}
+
 console.log(z);
+
+for(var i = 0; i < 5; i++){
+}
+
 console.log(i);
+
 ```
 
-3. Can we access i, w, x, y, and/or z?
+3. Can we access w, x, y, z and/or i?
 <details> 
 	<summary>w</summary>
 	Yes. <code>console.log(w);</code> will print out 6 when the function hasParameter is run passing it the argument 6.
