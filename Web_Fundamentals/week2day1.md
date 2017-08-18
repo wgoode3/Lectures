@@ -4,16 +4,14 @@
 
 ### Introductory questions
 
-1. Where does JavaScript run?
-
-<details> 
+1. <details> 
+	<summary><strong>Where does javascript run?</strong></summary>
 	<br>In our browsers... 
 </details>
 
-2. If you could provide js code directly to a cpu would it run?
-
-<details>
-	<br><p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
+2. <details>
+	<summary><strong>If you could provide js code directly to a cpu would it run?</strong></summary>
+	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
 	<h4>Examples of JS engines</h4>
 	<ul>
 		<li>JavaScriptCore</li>
