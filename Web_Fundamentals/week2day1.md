@@ -3,10 +3,12 @@
 ## Lecture:
 
 ### Introductory questions
+
 <details> 
 	<summary>Where does javascript run? </summary>
 	In our browsers... 
-</details>
+</details><br>
+
 <details>
 	<summary>If you could provide js code directly to a cpu would it run?</summary>
 	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
@@ -19,7 +21,7 @@
 		<li>Squirrel Fish</li>
 	</ul>
 	<p>They are written in C/C++ and have the goal of translating our js code into something a cpu can actually run.<br>In other words: JavaScript must be parsed before it can be run.</p>
-</details>
+</details><br>
 
 ### How do we declare variables?
 ```javascript
@@ -42,10 +44,10 @@ console.log(x, y, z, i);
 <details> 
 	<summary>Can we access x, y, and/or z?</summary>
 	Variables declaration is function scoped... that means it can get into a loop or a conditional, but not into a function.
-</details>
+</details><br>
 
 <details>
-	<summary>Loops? <br>What types are there?</summary> 
+	<summary>Loops? What types are there?</summary> 
 	<ul>
 		<li>for</li>
 		<li>while</li>
@@ -53,7 +55,7 @@ console.log(x, y, z, i);
 		<li>do/while</li>
 	</ul>
 	<p>Don't worry about those last two, we'll talk about them in the future</p>
-</details>
+</details><br>
 
 ### How does a for loop work?	
 
@@ -64,17 +66,17 @@ for (var i = 0; i < 5; i++){
 <details>
 	<summary>var i = 0</summary>
 	declares a variable i and sets it to some number
-</details>
+</details><br>
 
 <details>
 	<summary>i < 5</summary>
 	continues running as long as this condition
-</details>
+</details><br>
 
 <details>
 	<summary>i++</summary>
-	on each iteration do this <br>```i++``` is shorthand for ```i = i + 1```
-</details>
+	on each iteration do this <br><code>i++</code> is shorthand for <code>i = i + 1</code>
+</details><br>
 
 
 #### T-Diagram
