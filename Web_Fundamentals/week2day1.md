@@ -6,13 +6,13 @@
 
 1. <details> 
 	<summary>Where does javascript run?</summary>
-	<br>In our browsers... 
+	In our browsers... 
 </details>
 
 2. <details>
 	<summary>If you could provide js code directly to a cpu would it run?</summary>
 	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
-	<h4>Examples of JS engines</h4>
+	<p><strong>Examples of JS engines<strong></p>
 	<ul>
 		<li>JavaScriptCore</li>
 		<li>V8</li>
@@ -20,7 +20,7 @@
 		<li>Spider Monkey</li>
 		<li>Squirrel Fish</li>
 	</ul>
-	<p>They are written in C/C++ and have the goal of translating our js code into something a cpu can actually run.<br>In other words: JavaScript must be parsed before it can be run.</p>
+	<br><p>They are written in C/C++ and have the goal of translating our js code into something a cpu can actually run.<br>In other words: JavaScript must be parsed before it can be run.</p>
 </details>
 
 ### How do we declare variables?
@@ -28,36 +28,68 @@
 var x = 3;
 
 function test(){
-		var y = 4;
+	var y = 4;
 }
 
-if(true){
-		var z = 5;
+if(false){
+	var z = 5;
 }
 
 for(var i = 0; i < 1; i++){
 }
 
-console.log(x, y, z, i);
+function hasParameter(w){
+	console.log(w);
+}
+hasParameter(6);
+
+console.log(w);
+console.log(x);
+console.log(y);
+console.log(z);
+console.log(i);
 ```
 
-3. <details> 
-	<summary>Can we access x, y, and/or z?</summary>
-	Variables declaration is function scoped... that means it can get into a loop or a conditional, but not into a function.
+3. Can we access i, w, x, y, and/or z?
+<details> 
+	<summary>w</summary>
+	Yes. <code>console.log(w);</code> will print out 6 when the function hasParameter is run passing it the argument 6.
+</details>
+<details> 
+	<summary>x</summary>
+	Yes. <code>console.log(x);</code> will print out 3.
+</details>
+<details> 
+	<summary>y</summary>
+	No. <code>console.log(y);</code> will throw a <code>ReferenceError: y is not defined</code>
+</details>
+<details> 
+	<summary>z</summary>
+	Yes. <code>console.log(z);</code> will print out <code>undefined</code>
+</details>
+<details> 
+	<summary>i</summary>
+	Yes. <code>console.log(i);</code> will print out 5. 
+</details>
+<details> 
+	<summary>Why?</summary>
+	Variables in JavaScript are "function scoped", we cannot access a variable declared inside a function from outside of that function. We can access variables that are inside of a conditional (if) or a loop (for).
 </details>
 
+### Loops
+
 4. <details>
-	<summary>Loops? What types are there?</summary> 
+	<summary>What types are there?</summary> 
 	<ul>
 		<li>for</li>
 		<li>while</li>
 		<li>for/in</li>
 		<li>do/while</li>
 	</ul>
-	<p>Don't worry about those last two, we'll talk about them in the future</p>
+	<br><p>Don't worry about those last two, we'll talk about them in the future</p>
 </details>
 
-### How does a for loop work?	
+#### How does a for loop work?	
 
 ```javascript
 for (var i = 0; i < 5; i++){	
@@ -139,10 +171,10 @@ alert("hello");
 
 <details>
 	<summary><code>console.log(returnSomething());</code></summary>
-	<code>"Something"</code><br>Console log prints the returned string "Something"
+	<code>"Something"</code>Console log prints the returned string "Something"
 </details>
 
 <details>
 	<summary><code>console.log(returnNothing());</code></summary>
-	<code>undefined</code><br>If there is no return statement a function in javascript will return still return something, <code>undefined</code> 
+	<code>undefined</code>If there is no return statement a function in javascript still return something, <code>undefined</code> 
 </details>
