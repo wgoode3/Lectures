@@ -35,7 +35,7 @@ if(false){
 	var z = 5;
 }
 
-for(var i = 0; i < 1; i++){
+for(var i = 0; i < 5; i++){
 }
 
 function hasParameter(w){
