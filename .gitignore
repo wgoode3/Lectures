@@ -1,0 +1,8 @@
+*.txt
+*.pdf
+*.odt
+*.docx
+curriculum_notes/
+demos/
+group_assignments/
+wireframes/
