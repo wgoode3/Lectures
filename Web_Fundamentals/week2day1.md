@@ -4,14 +4,16 @@
 
 ### Introductory questions
 
+1. Where does JavaScript run?
+
 <details> 
-	<summary><strong>Where does javascript run?</strong></summary>
 	<br>In our browsers... 
 </details>
 
+2. If you could provide js code directly to a cpu would it run?
+
 <details>
-	<summary><strong>If you could provide js code directly to a cpu would it run?</strong></summary>
-	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
+	<br><p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
 	<h4>Examples of JS engines</h4>
 	<ul>
 		<li>JavaScriptCore</li>
@@ -66,17 +68,17 @@ for (var i = 0; i < 5; i++){
 <details>
 	<summary><strong>var i = 0</strong></summary>
 	declares a variable i and sets it to some number
-</details><br>
+</details>
 
 <details>
 	<summary><strong>i < 5</strong></summary>
 	continues running as long as this condition
-</details><br>
+</details>
 
 <details>
 	<summary><strong>i++</strong></summary>
 	on each iteration do this <br><code>i++ is shorthand for i = i + 1</code>
-</details><br>
+</details>
 
 <details>
 	<summary><strong>T-Diagram</strong></summary>
@@ -89,7 +91,7 @@ for (var i = 0; i < 5; i++){
 		<tr><td>5</td><td>4</td><td>true</td></tr>
 		<tr><td>6</td><td>5</td><td>false</td></tr>
 	</table>
-</details><br>
+</details>
 		
 ### How do functions work?
 
