@@ -4,13 +4,13 @@
 
 ### Introductory questions
 
-1. #### <details> 
-	<summary><strong>Where does javascript run?</strong></summary>
+1. <details> 
+	<summary>Where does javascript run?</summary>
 	<br>In our browsers... 
 </details>
 
-2. #### <details>
-	<summary><strong>If you could provide js code directly to a cpu would it run?</strong></summary>
+2. <details>
+	<summary>If you could provide js code directly to a cpu would it run?</summary>
 	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
 	<h4>Examples of JS engines</h4>
 	<ul>
@@ -41,13 +41,13 @@ for(var i = 0; i < 1; i++){
 console.log(x, y, z, i);
 ```
 
-<details> 
-	<summary><strong>Can we access x, y, and/or z?</strong></summary>
+3. <details> 
+	<summary>Can we access x, y, and/or z?</summary>
 	Variables declaration is function scoped... that means it can get into a loop or a conditional, but not into a function.
 </details>
 
-<details>
-	<summary><strong>Loops? What types are there?</strong></summary> 
+4. <details>
+	<summary>Loops? What types are there?</summary> 
 	<ul>
 		<li>for</li>
 		<li>while</li>
@@ -64,22 +64,22 @@ for (var i = 0; i < 5; i++){
 }
 ```
 <details>
-	<summary><strong>var i = 0</strong></summary>
+	<summary>var i = 0</summary>
 	declares a variable i and sets it to some number
 </details>
 
 <details>
-	<summary><strong>i < 5</strong></summary>
+	<summary>i < 5</summary>
 	continues running as long as this condition
 </details>
 
 <details>
-	<summary><strong>i++</strong></summary>
+	<summary>i++</summary>
 	on each iteration do this <br><code>i++ is shorthand for i = i + 1</code>
 </details>
 
 <details>
-	<summary><strong>T-Diagram</strong></summary>
+	<summary>T-Diagram</summary>
 	<table>
 		<br><tr><th>Iteration</th><th>var i</th><th>i < 5</th></tr>
 		<tr><td>1</td><td>0</td><td>true</td></tr>
@@ -106,12 +106,16 @@ var test2 = function(){
 ### What does return do?
 
 ```javascript
-// What does this return?
 function test(){
 	return "this";
 	return "that";
 }
-```		
+```
+
+5. <details>
+	<summary>What does this return?</summary>
+	<br>It only returns <code>"this"</code>, return ends the function. 
+</details>
 
 ### return vs console.log() vs alert()
 
@@ -126,10 +130,19 @@ function returnNothing(){
 console.log(returnSomething());
 console.log(returnNothing());
 
-// What do these console log and why?
-
-alert("hello");
-
 // What does alert do?
 
+alert("hello");
 ```	
+
+6. What do these console log and why?
+
+<details>
+	<summary><code>console.log(returnSomething());</code></summary>
+	<code>"Something"</code><br>Console log prints the returned string "Something"
+</details>
+
+<details>
+	<summary><code>console.log(returnNothing());</code></summary>
+	<code>undefined</code><br>If there is no return statement a function in javascript will return still return something, <code>undefined</code> 
+</details>
