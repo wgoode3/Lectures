@@ -2,22 +2,23 @@
 
 ## Lecture:
 
+### Introductory questions
 <details> 
 	<summary>Where does javascript run? </summary>
 	In our browsers... 
+</details>
+<details>
 	<summary>If you could provide js code directly to a cpu would it run?</summary>
-	No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine
-	<summary>Examples of JS engines</summary>
-	* V8
-	* JavaScriptCore
-	* Chakra
-	* Spider monkey
-	* Squirrel fish
-
-	They are written in C/C++ and have the goal of translating our js code into something a cpu can actually run.
-
-	In other words: JavaScript must be parsed before it can be run.
-
+	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
+	<h3>Examples of JS engines</h3>
+	<ul>
+		<li>JavaScriptCore</li>
+		<li>V8</li>
+		<li>Chakra</li>
+		<li>Spider Monkey</li>
+		<li>Squirrel Fish</li>
+	</ul>
+	<p>They are written in C/C++ and have the goal of translating our js code into something a cpu can actually run.<br>In other words: JavaScript must be parsed before it can be run.</p>
 </details>
 
 ### How do we declare variables?
@@ -41,11 +42,17 @@ console.log(x, y, z, i);
 <details> 
 	<summary>Can we access x, y, and/or z?</summary>
 	Variables declaration is function scoped... that means it can get into a loop or a conditional, but not into a function.
-	<summary>Loops? <br>What types are there?</summary>
-	* for
-	* for/in
-	* while
-	* do/while
+</details>
+
+<details>
+	<summary>Loops? <br>What types are there?</summary> 
+	<ul>
+		<li>for</li>
+		<li>while</li>
+		<li>for/in</li>
+		<li>do/while</li>
+	</ul>
+	<p>Don't worry about those last two, we'll talk about them in the future</p>
 </details>
 
 ### How does a for loop work?	
@@ -53,11 +60,22 @@ console.log(x, y, z, i);
 ```javascript
 for (var i = 0; i < 5; i++){	
 }
-
-// 1) declares a variable i and sets it to some number (var i = 0)
-// 2) continues running as long as this condition (i < 5)
-// 3) on each iteration do this (i++, short for i = i + 1)
 ```
+<details>
+	<summary>var i = 0</summary>
+	declares a variable i and sets it to some number
+</details>
+
+<details>
+	<summary>i < 5</summary>
+	continues running as long as this condition
+</details>
+
+<details>
+	<summary>i++</summary>
+	on each iteration do this <br>```i++``` is shorthand for ```i = i + 1```
+</details>
+
 
 #### T-Diagram
 
