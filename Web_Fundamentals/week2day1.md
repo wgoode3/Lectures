@@ -5,13 +5,13 @@
 ### Introductory questions
 
 <details> 
-	<summary>Where does javascript run? </summary>
-	In our browsers... 
+	<summary><h4>Where does javascript run?</h4></summary>
+	<br>In our browsers... 
 </details><br>
 
 <details>
-	<summary>If you could provide js code directly to a cpu would it run?</summary>
-	<p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
+	<summary><h4>If you could provide js code directly to a cpu would it run?</h4></summary>
+	<br><p>No... we must first convert it into machine code / bytecode before it runs, this is done by the javascript engine</p>
 	<h3>Examples of JS engines</h3>
 	<ul>
 		<li>JavaScriptCore</li>
@@ -75,21 +75,21 @@ for (var i = 0; i < 5; i++){
 
 <details>
 	<summary>i++</summary>
-	on each iteration do this <br><code>i++</code> is shorthand for <code>i = i + 1</code>
+	on each iteration do this <br><code>i++ is shorthand for i = i + 1</code>
 </details><br>
 
-
-#### T-Diagram
-
-| Iteration  | var i | i < 5 |
-|:----------:|:-----:|:-----:|
-| 1          | 0     | false |
-| 2          | 1     | false |
-| 3          | 2     | false |
-| 4          | 3     | false |
-| 5          | 4     | false |
-| 6          | 5     | true  |
-
+<details>
+	<summary>T-Diagram</summary>
+	<table>
+		<tr><th>Iteration</th><th>var i</th><th>i < 5</th></tr>
+		<tr><td>1</td><td>0</td><td>true</td></tr>
+		<tr><td>2</td><td>1</td><td>true</td></tr>
+		<tr><td>3</td><td>2</td><td>true</td></tr>
+		<tr><td>4</td><td>3</td><td>true</td></tr>
+		<tr><td>5</td><td>4</td><td>true</td></tr>
+		<tr><td>6</td><td>5</td><td>false</td></tr>
+	</table>
+</details><br>
 		
 ### How do functions work?
 
@@ -113,7 +113,7 @@ function test(){
 }
 ```		
 
-#### return vs console.log() vs alert()
+### return vs console.log() vs alert()
 
 ```javascript
 function returnSomething(){
