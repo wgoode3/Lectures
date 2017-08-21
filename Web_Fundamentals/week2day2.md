@@ -29,8 +29,8 @@
 ### The DOM?
 
 <details>
-	<summary>What is the <strong>DOM</strong>?</summary><br>
-	The <strong>D</strong>ocument <strong>O</strong>bject <strong>M</strong>odel
+	<summary>What is the <strong>DOM</strong>?</summary>
+	The <strong>D</strong>ocument <strong>O</strong>bject <strong>M</strong>odel<br>
 	The programming interface for HTML or XML that represents the page so other programs can change the document's content, style, and structure.
 	It is a tree of elements all branching off of its root <code>html</code> element.
 </details>
