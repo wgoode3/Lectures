@@ -3,13 +3,16 @@
 ![jQuery](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/1280px-JQuery_logo.svg.png "jQuery")
 
 ### What is a JavaScript library?
+<details> 
+    <code>A JavaScript library is a library of pre-written JavaScript which allows for easier development of JavaScript-based applications, especially for AJAX and other web-centric technologies.</code> -wikipedia<br>
+	Basically a bunch of handy JavaScript methods that someone wrote for us.
+    Really it's analogous to a real library.
+    
+    <code>library: collection of books :: JavaScript Library : collection of JavaScript</code>
+</details>
 
-what is a library in general?
 
-fairly analogous to that
-library: collection of books :: JavaScript Library : collection of JavaScript
 
-basically a bunch of handy methods that someone wrote for us
 
 why is this useful?
 
