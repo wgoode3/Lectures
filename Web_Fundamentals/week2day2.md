@@ -5,14 +5,8 @@
 ### JavaScript libraries
 <details> 
 	<summary>What is a JavaScript library?</summary>
-	    
-    	<code>A JavaScript library is a library of pre-written JavaScript which allows for easier development of JavaScript-based applications, especially for AJAX and other web-centric technologies.</code> -wikipedia<br>
-    
-    	Basically a bunch of handy JavaScript methods that someone wrote for us.
-    	Really it's analogous to a real library.
-    
-    	<code>library: collection of books :: JavaScript Library : collection of JavaScript</code>
-	
+	A JavaScript library is a library of pre-written JavaScript which allows for easier development of JavaScript-based applications, especially for AJAX and other web-centric technologies. -from wikipedia<br>
+	Basically a bunch of handy JavaScript methods that someone wrote for us.
 </details><br>
 
 <details>
