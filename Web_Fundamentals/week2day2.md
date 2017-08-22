@@ -63,7 +63,7 @@ $(document).ready(function(){
 ```
 <details>
 	<summary>What does this do? Is it necessary?</summary>
-	We use jQuery to wait for the html element ```document``` to indicate it is ready (has loaded all of the html).
+	We use jQuery to wait for the html element <code>document</code> to indicate it is ready (has loaded all of the html).
 	When it indicates it is ready it runs an anonymous function that console logs "jQuery is ready".<br>
 	It isn't entirely necessary, but it is a good habit to know all the html has loaded before you attempt to use jQuery to manipulate the DOM.
 </details>
