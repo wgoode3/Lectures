@@ -8,7 +8,7 @@ A callback is just a function that we pass as a variable into another function. 
 <details>
   <summary>Why is a callback function called a callback function?</summary>
   Because the function into which it is being passed as an argument calls it... back.
-</details>
+</details><br>
 
 ```javascript
 function acceptsCallback(callback){
@@ -16,7 +16,7 @@ function acceptsCallback(callback){
 }
 
 console.log(acceptsCallback(function(){
-  return "I am coming from your callback function!"
+  return "I'm being called by the function acceptsCallback";
 }));
 
 // this will print "I am coming from your callback function!"
@@ -33,7 +33,28 @@ console.log(acceptsCallback2(function(data){
 // this will print "It's dangerous to go alone, take this data!"
 ```
 
-### The DOM revisited
+### The DOM review
+
+<details>
+  <summary>Is the DOM exactly equal to our HTML code?</summary>
+  No. But it is generated from our HTML code.
+</details><br>
+
+```html
+<table border=1>
+	<tr><th>Test</th></tr>
+	<tr><td>Data</td></tr>
+</table>
+```
+<details>
+  <summary>Does the above table have <code><tbody></code> tags?</summary>
+  Yes. The browser will automatically generate a <tbody> for us even if we didn't write it. You can style it with CSS and everything.
+</details><br>
+
+<details>
+  <summary>How else could the DOM differ from out HTML? (Hint: what have we been learning this week)</summary>
+  It can contain HTML generated from JavaScript.
+</details>
 
 ### Static vs Dynamic
 
