@@ -112,7 +112,7 @@ $("div").click(function(){
 <details>
   <summary>If we click on the button a few times, then click on any of the appended <code>&lt;h1&gt;<code> tags what gets console logged? Why?</summary>
 	  <code>"using '.on()' this time"</code><br>
-	  The <code>.click()</code> event is attached to any <code>&lt;h1&gt;<code> tags right after the document ready. Because the event isn't attached to the dynamically generated <code>&lt;h1&gt;<code> tags it won't console log <code>"You have clicked an h1 tag! Good job!"</code>. The <code>.on()</code> method is a way around this.
+	  The <code>.click()</code> event is attached to any <code>&lt;h1&gt;</code> tags right after the document ready. Because the event isn't attached to the dynamically generated <code>&lt;h1&gt;</code> tags it won't console log <code>"You have clicked an h1 tag! Good job!"</code>. The <code>.on()</code> method is a way around this.
 </details><br>
 
 ### Debugging
@@ -120,5 +120,5 @@ $("div").click(function(){
 <details>
   <summary>How do we debug our code? (hint: someone wrote it on the window)</summary>
   Console log everything.<br>
-  If you ask me to debug your code and you don't even have your console open, I mmight just walk away after reminding you to open your console.
+  If you ask me to debug your code and you don't even have your console open, I might just walk away after reminding you to open your console.
 </details>
