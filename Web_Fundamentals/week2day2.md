@@ -41,7 +41,7 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
     <!-- or we can download the jquery-3.1.1.min.js script and link to it in our project's /js folder -->
-    <script type="text/javascript" src='/js/jquery-3.1.1.min.js'></script>
+    <script type="text/javascript" src='js/jquery-3.1.1.min.js'></script>
 </head>
 <!-- and so on -->
 ```
@@ -51,7 +51,7 @@
 ```javascript
 console.log($);
 ```
-jQuery only exposes one variable to us, ```$```. Through this one variable we have access to many different methods.
+jQuery only exposes one variable to us, ```$```. Through this one variable we have access to a function that we can use to do many different things.
 
 ### $(document).ready()
 
