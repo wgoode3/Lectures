@@ -1,6 +1,7 @@
 # Week 2 Day 1
 
-## Lecture:
+## JavaScript
+![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png "JavaScript")
 
 ### Introductory questions
 
