@@ -47,8 +47,8 @@ console.log(acceptsCallback2(function(data){
 </table>
 ```
 <details>
-  <summary>Does the above table have <code><tbody></code> tags?</summary>
-  Yes. The browser will automatically generate a <tbody> for us even if we didn't write it. You can style it with CSS and everything.
+  <summary>Does the above table have \<tbody> tags?</summary>
+  Yes. The browser will automatically generate a \<tbody> for us even if we didn't write it. You can style it with CSS and everything.
 </details><br>
 
 <details>
