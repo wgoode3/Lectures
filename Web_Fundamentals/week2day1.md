@@ -1,7 +1,7 @@
 # Week 2 Day 1
 
 ## JavaScript
-![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png "JavaScript")
+![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png "JavaScript" =250x)
 
 ### Introductory questions
 
