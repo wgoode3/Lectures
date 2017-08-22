@@ -71,7 +71,7 @@ $(document).ready(function(){
 ### Selectors and Events
 You can select based on html tags, ids, classes, and/or any combination of the three.
 ```javascript
-$(p).append(" <i>hello</i>");
+$('p').append(" <i>hello</i>");
 $("#some_id").text("New text");
 $(".some_class").css("background-color", "red");
 ```
