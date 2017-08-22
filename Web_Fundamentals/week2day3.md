@@ -110,7 +110,7 @@ $("div").click(function(){
 </script>
 ```
 <details>
-  <summary>If we click on the button a few times, then click on any of the appended <code>&lt;h1&gt;<code> tags what gets console logged? Why?</summary>
+  <summary>If we click on the button a few times, then click on any of the appended <code>&lt;h1&gt;</code> tags what gets console logged? Why?</summary>
 	  <code>"using '.on()' this time"</code><br>
 	  The <code>.click()</code> event is attached to any <code>&lt;h1&gt;</code> tags right after the document ready. Because the event isn't attached to the dynamically generated <code>&lt;h1&gt;</code> tags it won't console log <code>"You have clicked an h1 tag! Good job!"</code>. The <code>.on()</code> method is a way around this.
 </details><br>
