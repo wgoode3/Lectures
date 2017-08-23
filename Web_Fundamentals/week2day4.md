@@ -6,7 +6,7 @@
 
 <details>
   <summary>What is an API?</summary>
-  <strong>A</strong>plication <strong>P</strong>rogramming <strong>I<strong>nterface<br>
+  <strong>A</strong>plication <strong>P</strong>rogramming <strong>I</strong>nterface<br>
   "it is a set of clearly defined methods of communication between various software components" -wikipedia<br>
   A way for one program to communicate with another.
 </details><br>
