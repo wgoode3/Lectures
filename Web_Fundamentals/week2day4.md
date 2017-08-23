@@ -31,7 +31,7 @@ Try going to ```http://pokeapi.co/api/v2/pokemon/1/``` in your browser. What is 
 
 <details>
   <summary>What is AJAX?</summary>
-  <strong>A</strong>synchronous <strong>J</strong>avaScript <strong>A<strong>nd <strong>X</strong>ML<br>
+  <strong>A</strong>synchronous <strong>J</strong>avaScript <strong>A</strong>nd <strong>X</strong>ML<br>
   AJAX allows us to update data or submit data on a webpage without needing to refresh the page or redirect the user to another page. 
 </details>
 
