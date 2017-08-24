@@ -51,7 +51,9 @@ The traditional request / response cycle involves a user on a webbrowser making 
 Which should you use?
 
 ```javascript
-$.get(url + apiKey, function(data){
+$.get("url to your api call", function(data){
 	console,log(data);
 }, "json");
 ```
+
+Remember to replace the ```"url to your api call"``` with the correct url for your API call.
