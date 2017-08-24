@@ -45,3 +45,13 @@ The traditional request / response cycle involves a user on a webbrowser making 
   <summary>How is the traditional req/res cycle different than AJAX?</summary>
   For one, the traditional req/res cycle will give us a HTML response, not a JSON response. Another difference is that the traditional req/res cycle is a rigid 1:1 relationship between a user initiating a request and a server giving a response. With AJAX the server can provide the HTML/CSS/JS initially and then AJAX requests can handle reteiving data and rendering it using JS on the user's computer. The user can also send form data or other data to the server asynchronously without leaving the currently rendered HTML page. When you learn more about full-stack-development this will make more sense.
 </details>
+
+### $.ajax() vs $.get()
+
+Which should you use?
+
+```javascript
+$.get(url + apiKey, function(data){
+	console,log(data);
+}, "json");
+```
