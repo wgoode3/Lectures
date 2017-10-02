@@ -21,7 +21,7 @@ function print1to255(){
 }
 ```
 
-would look like this
+would look like this in Python
 
 ```python
 def print1to255():
@@ -31,7 +31,7 @@ def print1to255():
 
 1. <details> 
     <summary>Why version 2.7 and not 3.6?</summary>
-    2.7 is forward compatible with 3.6, but 3.6 is not backward compatible with 2.7. There are sill a lot of peole using Python 2.7 as well. Some Python libraries may still work best in 2.7.
+    2.7 can be forward compatible with 3.6, but 3.6 is not backward compatible with 2.7. There are sill a lot of people using Python 2.7 as well. Some Python libraries may still work best in 2.7.
 </details>
 
 ### The Request Response Cycle
