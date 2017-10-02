@@ -35,7 +35,7 @@ def print1to255():
 
 ### The Request Response Cycle
 
-<img src="https://lh4.googleusercontent.com/Wcd9eyXs79rItZ6FP8A_MRhFscsZqDheO9KxFKXlkZV6pOC-uoCPKpLI_XOHltmuG0ZQAE8wfaFvg7Q=w1920-h931-rw" alt="req-res">
+<img src="https://i.imgur.com/fVHiuUz.png" alt="req-res">
 
 2. <details> 
 	<summary>What is a web server?</summary>
