@@ -1,6 +1,7 @@
 # Week 2 Day 1
 
-## Lecture:
+## JavaScript
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="250px">
 
 ### Introductory questions
 
@@ -87,9 +88,11 @@ console.log(i);
 		<li>for</li>
 		<li>while</li>
 		<li>for/in</li>
+		<li>for/of</li>
 		<li>do/while</li>
+		<li>.forEach() // method of array</li>
 	</ul>
-	<br><p>Don't worry about those last two, we'll talk about them in the future</p>
+	<br><p>Don't worry about those last four, we'll talk about them in the future</p>
 </details>
 
 #### How does a for loop work?	
