@@ -39,7 +39,7 @@ class Student(object):
 
 3. <details>
     <summary>How do we make (instantiate) a student?</summary>
-    <code>student1 = student("Amina", "amina@google.com")</code>
+    <code>student1 = Student("Amina", "amina@google.com")</code>
 </details>
 
 4. <details>
