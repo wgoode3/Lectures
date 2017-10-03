@@ -44,7 +44,7 @@ class Student(object):
 
 4. <details>
 	<summary>What are the attributes in the class <code>Student</code>?</summary>
-	The attributes are the variables: self.name, self.email, and self.numberOfBelts
+	The attributes are the variables: <code>self.name</code>, <code>self.email</code>, and <code>self.numberOfBelts</code>
 </details>
 
 5. <details>
