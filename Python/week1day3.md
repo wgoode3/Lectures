@@ -109,7 +109,7 @@ jenny.say("goodbye")
 9. <details>
 	<summary>What will happen when we run the following code?</summary>
 	<code>
-	"Bob says hello"
+	"Bob says hello"\n
 	"Jenny says goodbye"
 	</code>
 </details>
