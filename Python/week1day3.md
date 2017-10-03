@@ -108,10 +108,8 @@ jenny.say("goodbye")
 
 9. <details>
 	<summary>What will happen when we run the following code?</summary>
-	<code>
-	"Bob says hello"\n
-	"Jenny says goodbye"
-	</code>
+	<code>"Bob says hello"</code><br>
+	<code>"Jenny says goodbye"</code>
 </details>
 
 10. <details>
