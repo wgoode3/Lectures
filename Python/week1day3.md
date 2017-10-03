@@ -43,11 +43,17 @@ class Student(object):
 </details>
 
 4. <details>
+	<summary>What is <code>self</code>?</summary>
+	<code>self</code> is whatever that object happens to be. Think of it as a placeholder for the names of the objects that we will be making.
+	If you remember the <code>this</code> from JavaScript, <code>self</code> does essentially the same thing.
+</details>
+
+5. <details>
 	<summary>What are the attributes in the class <code>Student</code>?</summary>
 	The attributes are the variables: <code>self.name</code>, <code>self.email</code>, and <code>self.numberOfBelts</code>
 </details>
 
-5. <details>
+6. <details>
 	<summary>What are the methods in the class <code>Student</code>?</summary>
 	<code>addBelt()</code> and <code>say()</code>
 </details>
@@ -57,9 +63,10 @@ student1.addBelt().addBelt()
 print student1.numberOfBelts
 ```
 
-6. <details>
+7. <details>
 	<summary>What is printed in the above code?</summary>
-	2, we are able to run add belt twice in the same line because we are using chaining (<code>return self</code>). This is a powerful concept, but be careful as we don't always want to <code>return self</code>.
+	2<br>
+	We are able to run add belt twice in the same line because we are using chaining (<code>return self</code>). This is a powerful concept, but be careful as we don't always want to <code>return self</code>.
 </details>
 
 ## Inheritance
@@ -86,9 +93,9 @@ class Student(Person):
 		return self
 ```
 
-7. <details>
+8. <details>
 	<summary>What does <code>super</code> do?</summary>
-	<code>super</code> runs the <code>__init__</code> method in the class <code>Person</code> 
+	<code>super</code> runs the <code>__init__</code> method in the class <code>Person</code> which creates the <code>self.name</code> and <code>self.email</code> attributes.
 </details>
 
 ```python
@@ -99,7 +106,7 @@ jenny = Student("Jenny", "jenny@gmail.com")
 jenny.say("goodbye")
 ```
 
-8. <details>
+9. <details>
 	<summary>What will happen when we run the following code?</summary>
 	<code>
 	"Bob says hello"
@@ -107,7 +114,7 @@ jenny.say("goodbye")
 	</code>
 </details>
 
-9. <details>
+10. <details>
 	<summary>Why?</summary>
 	The class <code>Student</code> inherits the method <code>say()</code> from the class <code>Person</code>
 </details>
