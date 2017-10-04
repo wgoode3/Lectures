@@ -117,7 +117,7 @@ jenny.say("goodbye")
     The class <code>Student</code> inherits the method <code>say()</code> from the class <code>Person</code>
 </details>
 
-## Modulels and Packages
+## Modules and Packages
 
 The beauty of OOP is how we don't have to write all the code ourself, there are fantastic libraries that already exist that we can use.
 
