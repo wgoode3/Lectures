@@ -13,17 +13,20 @@
 
 We can install virtualenvironment using:
 
+|--------------------|----------------------------------|
 | Mac/Linux:         | pip install virtualenv           |
 | Windows:           | python -m pip install virtualenv |
 
 
 We can create a virtualenvironment named ```flaskEnv``` using:
 
+|------------|-------------------------------|
 | Mac/Linux: | virtualenv flaskEnv           |
 | Windows:   | python -m virtualenv flaskEnv |
 
 We can activate a virtualenvironment named ```flaskEnv``` using:
 
+|-------------------------------|------------------------------------------------|
 | Mac/Linux:                    | source flaskEnv/bin/activate                   |
 | Windows command prompt :      | call flaskEnv/Scripts/activate                 |
 | Windows 10 command prompt :   | . flaskEnv/Scripts/activate                    |
