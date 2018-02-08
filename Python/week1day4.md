@@ -156,6 +156,6 @@ Then we can use the following tags to access these in our ```index.html```.
 
 <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
 
-<img src="{{ url_for('static', filename='img/flask.png') }}copy">
+<img src="{{ url_for('static', filename='img/flask.png') }}">
 
 ``` 
