@@ -11,6 +11,29 @@
     A virtual environment is a clean python environment that is seperate from the global python environment that can have just the version of python and libraries and scripts installed that are needed for a project.
 </details>
 
+We can install virtualenvironment using:
+
+| Mac/Linux:         | pip install virtualenv           |
+|:------------------:|:--------------------------------:|
+| Windows:           | python -m pip install virtualenv |
+
+
+We can create a virtualenvironment named ```flaskEnv``` using:
+
+| Mac/Linux: | virtualenv flaskEnv           |
+|:----------:|:-----------------------------:|
+| Windows:   | python -m virtualenv flaskEnv |
+
+We can activate a virtualenvironment named ```flaskEnv``` using:
+
+| Mac/Linux:                    | source flaskEnv/bin/activate                   |
+|:-----------------------------:|-----------------------------------------------:|
+| Windows command prompt :      | call flaskEnv/Scripts/activate                 |
+| Windows 10 command prompt :   | . flaskEnv/Scripts/activate                    |
+|:-----------------------------:|-----------------------------------------------:|
+| Windows git bash :            |  source flaskEnv/Scripts/activate              |
+
+
 ### Flask
 
 2. <details> 
