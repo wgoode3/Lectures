@@ -87,7 +87,7 @@ eg. url = "http://www.myawesomeurl.com/This/is/the/route"
 
 They are used to allow users to interact with our website and request additional resources from it.
 
-3. <details> 
+4. <details> 
     <summary>How do we specify a route in flask?</summary>
     <code>@app.run("/route")</code> 
 </details>
@@ -99,3 +99,38 @@ We can create additional routes by adding them to the ```server.py```.
 def another_function():
 	return render_template("another.html")
 ```
+
+### Static
+
+5. <details> 
+    <summary>What is a static file?</summary>
+    A file that doesn't change, in the context of our webapp the css, js, and images. 
+</details>
+
+To link to static files we can create a new folder called static. In order to keep the static folder organized we can also create subfolders for css, js and images.
+
+```
+|-> HelloWorld/
+	|-> server.py
+	|-> templates/
+		|-> index.html
+	|-> static/
+		|-> css/
+			|-> style.css
+		|-> js/
+			|-> script.js
+		|-> img/
+			|-> flask.png
+```
+
+Then we can use the following tags to access these in our ```index.html```.
+
+```html
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+<img src="{{ url_for('static', filename='img/flask.png') }}copy">
+
+``` 
