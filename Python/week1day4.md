@@ -114,7 +114,7 @@ They are used to allow users to interact with our website and request additional
 
 4. <details> 
     <summary>How do we specify a route in flask?</summary>
-    <code>@app.run("/route")</code> 
+    <code>@app.route("/route")</code> 
 </details>
 
 We can create additional routes by adding them to the ```server.py```.
