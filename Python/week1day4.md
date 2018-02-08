@@ -2,7 +2,7 @@
 
 ## Flask
 
-<img src="http://flask.pocoo.org/static/logo/flask.png" alt="Python" width="200px">
+<img src="http://flask.pocoo.org/static/logo/flask.png" alt="Python" width="400px">
 
 ### Virtual Environment
 
