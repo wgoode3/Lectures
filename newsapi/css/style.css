@@ -1,0 +1,7 @@
+.NewsStory{
+	width: 700px;
+	height: 500px;
+	display: inline-block;
+	border:1px solid green;
+	vertical-align: top;
+}
