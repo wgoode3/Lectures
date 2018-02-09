@@ -106,7 +106,7 @@ We can also pass information as part of a route.
     <tr>
         <td>Product</td>
         <td>Price</td>
-        <Action</td>
+        <td>Action</td>
     </tr>
     <tr>
         <td>Dojo t-shirt</td>
