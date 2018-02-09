@@ -203,7 +203,7 @@ EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
 
 ```python
 valid = True
-if not EMAIL_REGEX.match(request.form["email"]:
+if not EMAIL_REGEX.match(request.form["email"]):
     flash("Invalid Email!")
     valid = False
 ```
