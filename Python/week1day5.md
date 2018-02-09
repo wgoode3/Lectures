@@ -10,9 +10,9 @@ You should have seen something like this before.
 
 ```html
 <form action="/process" method="post">
-	Your Name: <input type="text" name="name" placeholder="Your name:"><br>
-	Your Email: <input type="text" name="email" placeholder="Your email:"><br>
-	<input type="submit" value="Sign Up!">
+    Your Name: <input type="text" name="name" placeholder="Your name:"><br>
+    Your Email: <input type="text" name="email" placeholder="Your email:"><br>
+    <input type="submit" value="Sign Up!">
 </form>
 ```
 
@@ -37,8 +37,8 @@ We can access the data in a route that looks like ```"/process"```
 ```python
 @app.route("/process", methods=["POST"])
 def process():
-	print(request.form)
-	return redirect("/")
+    print(request.form)
+    return redirect("/")
 ```
 
 3. <details> 
@@ -94,7 +94,7 @@ Are their any drawbacks to using session?
 
 6. <details> 
     <summary>What is hidden input?</summary>
-	Exactly what it sounds like, an input that isn't displayed in a form.
+    Exactly what it sounds like, an input that isn't displayed in a form.
 </details>
 
 ### Route Parameters
@@ -103,26 +103,26 @@ We can also pass information as part of a route.
 
 ```html
 <table>
-	<tr>
-		<td>Product</td>
-		<td>Price</td>
-		<Action</td>
-	</tr>
-	<tr>
-		<td>Dojo t-shirt</td>
-		<td>$15.99</td>
-		<td><a href="/buy/1">Buy</a></td>
-	</tr>
-	<tr>
-		<td>Dojo Hat</td>
-		<td>$11.99</td>
-		<td><a href="/buy/2">Buy</a></td>
-	</tr>
-	<tr>
-		<td>Dojo Algorithm Book</td>
-		<td>$34.99</td>
-		<td><a href="/buy/3">Buy</a></td>
-	</tr>
+    <tr>
+        <td>Product</td>
+        <td>Price</td>
+        <Action</td>
+    </tr>
+    <tr>
+        <td>Dojo t-shirt</td>
+        <td>$15.99</td>
+        <td><a href="/buy/1">Buy</a></td>
+    </tr>
+    <tr>
+        <td>Dojo Hat</td>
+        <td>$11.99</td>
+        <td><a href="/buy/2">Buy</a></td>
+    </tr>
+    <tr>
+        <td>Dojo Algorithm Book</td>
+        <td>$34.99</td>
+        <td><a href="/buy/3">Buy</a></td>
+    </tr>
 </table>
 ```
 
@@ -131,8 +131,8 @@ In the ```server.py```
 ```python
 @app.route("/buy/<id>")
 def buy(id):
-	print("Someone is buying product " + id)
-	return redirect("/")
+    print("Someone is buying product " + id)
+    return redirect("/")
 ```
 
 We can access the ```id``` as a variable.
@@ -141,17 +141,17 @@ We can access the ```id``` as a variable.
 
 7. <details> 
     <summary>Why would we need to validate form data?</summary>
-	To insure data that we might want to save into a database is correct or in the right format. Later we will use these same strategies to enable users to authenticate themselves to your application.
+    To insure data that we might want to save into a database is correct or in the right format. Later we will use these same strategies to enable users to authenticate themselves to your application.
 </details>
 
 8. <details> 
     <summary>How do we validate data?</summary>
-	Use lots of conditionals!
-	<pre>
-	valid = True
-	if len(request.form["name"]) < 1:
-	    valid = False
-	</pre>
+    Use lots of conditionals!
+    <pre>
+    valid = True
+    if len(request.form["name"]) < 1:
+        valid = False
+    </pre>
 </details>
 
 #### Flash
@@ -160,7 +160,7 @@ To display validation errors to your users use Flash!
 
 9. <details> 
     <summary>What is Flash?</summary>
-	Flash is like a session variable that is only displayed to your user once. Then it dissapears in a <i>flash!</i>
+    Flash is like a session variable that is only displayed to your user once. Then it dissapears in a <i>flash!</i>
 </details>
 
 ```python
@@ -170,21 +170,21 @@ from flask import Flask, render_template, session, flash, request
 ```python
 valid = True
 if len(request.form["name"]) < 1:
-	flash("Name is required!")
-	valid = False
+    flash("Name is required!")
+    valid = False
 ```
 
 And we can display the errors in our html with.
 
 ```html
 {% with messages = get_flashed_messages() %}
-	{% if messages %}
-		<ul>
-		{% for message in messages %}
-			<li>{{message}}</li>
-		{% endfor %}
-		</ul>
-	{% endif %}
+    {% if messages %}
+        <ul>
+        {% for message in messages %}
+            <li>{{message}}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
 {% endwith %}
 ```
 
@@ -192,7 +192,7 @@ And we can display the errors in our html with.
 
 10. <details> 
     <summary>What is Regex?</summary>
-	Regex is short for Regular Expressions. It is a way we can find patterns in text or even search text.
+    Regex is short for Regular Expressions. It is a way we can find patterns in text or even search text.
 </details>
 
 ```python
@@ -204,8 +204,8 @@ EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
 ```python
 valid = True
 if not EMAIL_REGEX.match(request.form["email"]:
-	flash("Invalid Email!")
-	valid = False
+    flash("Invalid Email!")
+    valid = False
 ```
 
 Let's dissect the regex above.
