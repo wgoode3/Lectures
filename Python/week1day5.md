@@ -8,6 +8,12 @@
 
 You should have seen something like this before.
 
+<form action="/process" method="post">
+    Your Name: <input type="text" name="name" placeholder="Your name:"><br>
+    Your Email: <input type="text" name="email" placeholder="Your email:"><br>
+    <input type="submit" value="Sign Up!">
+</form>
+
 ```html
 <form action="/process" method="post">
     Your Name: <input type="text" name="name" placeholder="Your name:"><br>
