@@ -210,4 +210,8 @@ if not EMAIL_REGEX.match(request.form["email"]:
 
 Let's dissect the regex above.
 
-In the pattern above the ```^``` signifies the beginning of a pattern and the ```$``` signifies the end of a pattern. The ```[a-zA-Z0-9.+_-]+``` means that there can be as many letters between ```a``` and ```z``` and or ```A``` and ```Z``` and or numbers between ```0``` and ```9``` and any of the special characters ```.```, ```+```, ```_```, and ```-```. the ```@``` means there must be an ```@``` in between those two blocks of letters and numbers. The ```\.``` means there must be a ```.``` in the sequence after the second block of characters. The last block after the ```.``` can only be composed of capital or lowercase letters and it can also be of any length.
+In the pattern above the ```^``` signifies the beginning of a pattern and the ```$``` signifies the end of a pattern. 
+The ```[a-zA-Z0-9.+_-]+``` means that there can be as many letters between ```a``` and ```z``` and or ```A``` and ```Z``` and or numbers between ```0``` and ```9``` and any of the special characters ```.```, ```+```, ```_```, and ```-```. 
+The ```@``` means there must be an ```@``` in between those two blocks of letters and numbers. 
+The ```\.``` means there must be a ```.``` in the sequence after the second block of characters. 
+The last block after the ```.``` can only be composed of capital or lowercase letters and it can also be of any length.
