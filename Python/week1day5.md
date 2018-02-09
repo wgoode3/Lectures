@@ -148,11 +148,9 @@ We can access the ```id``` as a variable.
     <summary>How do we validate data?</summary>
 	Use lots of conditionals!
 	
-	<code>
-		valid = True
-		if len(request.form["name"]) < 1:
-			valid = False<br>
-	</code>
+	<code>valid = True</code><br>
+	<code>if len(request.form["name"]) < 1:</code><br>
+	<code>    valid = False</code>
 </details>
 
 #### Flash
