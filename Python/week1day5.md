@@ -147,10 +147,11 @@ We can access the ```id``` as a variable.
 8. <details> 
     <summary>How do we validate data?</summary>
 	Use lots of conditionals!
+	
 	<code>
-		valid = True\n
-		if len(request.form["name"]) < 1:\n
-			\tvalid = False<br>
+		valid = True
+		if len(request.form["name"]) < 1:
+			valid = False<br>
 	</code>
 </details>
 
