@@ -148,9 +148,9 @@ We can access the ```id``` as a variable.
     <summary>How do we validate data?</summary>
 	Use lots of conditionals!
 	<code>
-		valid = True
-		if len(request.form["name"]) < 1:
-			valid = False
+		valid = True\n
+		if len(request.form["name"]) < 1:\n
+			\tvalid = False<br>
 	</code>
 </details>
 
@@ -190,7 +190,7 @@ And we can display the errors in our html with.
 
 #### Regex?
 
-9. <details> 
+10. <details> 
     <summary>What is Regex?</summary>
 	Regex is short for Regular Expressions. It is a way we can find patterns in text or even search text.
 </details>
