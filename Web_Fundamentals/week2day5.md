@@ -1,6 +1,6 @@
 # Week 2 Day 4
 ## Responsive Web Design and Bootstrap
-<img src="https://camo.githubusercontent.com/5d417873a11d7175ec40fc3af3c6cb024a531dd7/68747470733a2f2f676574626f6f7473747261702e636f6d2f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap" width="500px">
+<img src="https://camo.githubusercontent.com/5d417873a11d7175ec40fc3af3c6cb024a531dd7/68747470733a2f2f676574626f6f7473747261702e636f6d2f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap" width="300px">
 
 ## Responsive Web Design
 
@@ -13,8 +13,8 @@
 
 * Use responsive units
 
-| unit | description                                                  |
-|:----:|:------------------------------------------------------------:|
+| Unit | Description                                                  |
+|:-----|:-------------------------------------------------------------|
 | px   | the number of pixels in the viewing device                   |
 | em   | relative to the font size of the parent element              |
 | rem  | relative to the font size of the root element                |
@@ -54,7 +54,8 @@ There are many that exist, we will demonstrate the one built into Bootstrap shor
 
 Bootstrap is the most popular CSS Framework. It was released by Twitter back in 2011 and is free to use in all of your projects. 
 
-```Bootstrap is the second most-starred project on GitHub, with more than 121,725 stars and 57,617 forks.``` -[Wikipedia](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+```Bootstrap is the second most-starred project on GitHub, with more than 121,725 stars and 57,617 forks.``` 
+-[Wikipedia](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 
 ### Getting Started
 
@@ -64,14 +65,14 @@ We can incorporate Bootstrap into our projects just like we did with jQuery, eit
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bootstrap Demo</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Bootstrap Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<h1>Bootstrap Demo</h1>
+    <h1>Bootstrap Demo</h1>
 </body>
 </html>
 
@@ -85,9 +86,9 @@ The first thing to note is that Bootstrap provides us with a number of really co
 
 ```html
 <body>
-	<div class="container">
-		<h1>Bootstrap Demo</h1>
-	</div>
+    <div class="container">
+        <h1>Bootstrap Demo</h1>
+    </div>
 </body>
 ```
 
@@ -95,11 +96,11 @@ Next we can draw attention to our ```<h1>``` tag by wrapping it in the ```jumbot
 
 ```html
 <body>
-	<div class="container">
-		<div class="jumbotron">
-			<h1>Bootstrap Demo</h1>
-		</div>
-	</div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Bootstrap Demo</h1>
+        </div>
+    </div>
 </body>
 ```
 
@@ -109,10 +110,10 @@ Let's introduce the Bootstrap grid. Bootstrap uses a grid with 12 columns, meani
 
 ```html
 <div class="row">
-  <div class="col-sm-3">.col-sm-3</div>
-  <div class="col-sm-3">.col-sm-3</div>
-  <div class="col-sm-3">.col-sm-3</div>
-  <div class="col-sm-3">.col-sm-3</div>
+    <div class="col-sm-3">.col-sm-3</div>
+    <div class="col-sm-3">.col-sm-3</div>
+    <div class="col-sm-3">.col-sm-3</div>
+    <div class="col-sm-3">.col-sm-3</div>
 </div>
 ```
 
@@ -120,8 +121,8 @@ This example will create 4 equal width columns.
 
 ```html
 <div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-8">.col-sm-8</div>
+    <div class="col-sm-4">.col-sm-4</div>
+    <div class="col-sm-8">.col-sm-8</div>
 </div>
 ```
 
@@ -131,12 +132,12 @@ Note the ```sm``` in the above class name. This is the size of screen at which i
 
 We can use this to our advantage as well.
 
-```
+```html
 <div class="row">
-	<div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
-	<div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
-	<div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
-	<div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
+    <div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
+    <div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
+    <div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
+    <div class="card col-lg-3 col-md-4 col-sm-6">Content</div>
 </div>
 ```
 
@@ -145,7 +146,7 @@ The above code will be 4, 3, 2, or 1 ```div```s wide based on the display width.
 A breakdown of the column classes and the breakpoint width for each.
 
 | class   | width    |
-|:-------:|:--------:|
+|:--------|:---------|
 | col-    | <576px   |
 | col-sm- | >=576px  |
 | col-md- | >=768px  |
@@ -156,16 +157,16 @@ A breakdown of the column classes and the breakpoint width for each.
 
 There are also classes that can be used for forms.
 
-```
+```html
 <form action="/process" method="post">
-	<div class="form-group">
-		<label for="name">Your name:</label>
-		<input type="text" name="name" id="name" class="form-control">
-	</div>
-	<div class="form-group">
-		<label for="email">Your email:</label>
-		<input type="text" name="email" id="email" class="form-control">
-	</div>
+    <div class="form-group">
+        <label for="name">Your name:</label>
+        <input type="text" name="name" id="name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="email">Your email:</label>
+        <input type="text" name="email" id="email" class="form-control">
+    </div>
 </form>
 ```
 
@@ -175,7 +176,7 @@ The ```form-group``` class applies proper form spacing. The ```form-control``` c
 
 We can also style buttons for out form. The ```.btn``` class styles the sizes and appearance of the button. ```btn-success``` gives additional style to the button specifically it makes the button green.
 
-```
+```html
 <input type="submit" value="Sign Up!" class="btn btn-success">
 ```
 
@@ -190,9 +191,8 @@ Other colors can be applied similarly.
 | btn-info      | blue      |
 | btn-warning   | yellow    |
 | btn-danger    | red       |
-| btn-danger    | red       |
 | btn-dark      | black     |
-| btn-light     | black     |
+| btn-light     | white     |
 | btn-link      | blue link |
 
 You can also change the size with classes like: ```btn-lg```, ```btn-sm```.
@@ -203,8 +203,8 @@ You may also need to display messages to users on the site and alerts are perfec
 
 ```html
 <div class="alert alert-success alert-dismissable">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  Welcome to the site!
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    Welcome to the site!
 </div>
 ```
 
