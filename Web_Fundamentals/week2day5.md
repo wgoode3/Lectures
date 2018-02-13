@@ -1,6 +1,6 @@
 # Week 2 Day 4
 ## Responsive Web Design and Bootstrap
-<img src="https://camo.githubusercontent.com/5d417873a11d7175ec40fc3af3c6cb024a531dd7/68747470733a2f2f676574626f6f7473747261702e636f6d2f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap" width="300px">
+<img src="https://camo.githubusercontent.com/5d417873a11d7175ec40fc3af3c6cb024a531dd7/68747470733a2f2f676574626f6f7473747261702e636f6d2f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap" width="200px">
 
 ## Responsive Web Design
 
@@ -63,9 +63,11 @@ We can incorporate Bootstrap into our projects just like we did with jQuery, eit
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Bootstrap Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
