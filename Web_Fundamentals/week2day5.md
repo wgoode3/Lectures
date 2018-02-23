@@ -1,4 +1,4 @@
-# Week 2 Day 4
+# Week 2 Day 5
 ## Responsive Web Design and Bootstrap
 <img src="https://camo.githubusercontent.com/5d417873a11d7175ec40fc3af3c6cb024a531dd7/68747470733a2f2f676574626f6f7473747261702e636f6d2f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap" width="200px">
 
