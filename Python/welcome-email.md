@@ -10,7 +10,7 @@ I would like everyone to make an attempt at installing Python 2.7 on your comput
 * If you use the **Windows** operating system, follow the directions outlined 
 [here](http://learn.codingdojo.com/m/7/4688/24617). Note that there are known issues regarding Python in Git Bash, look [here](http://learn.codingdojo.com/m/7/4689/31243) for how to fix those.
  
-* If you use the **Mac/OSX** operating system I would like you to download the package from [here](https://www.python.org/ftp/python/2.7.14/python-2.7.14-macosx10.6.pkg), and install it on your computer. I do not recommend the installation described on the platform for Mac/OSX.
+* If you use the **Mac/OSX** operating system I would like you to download the package from [here](https://www.python.org/ftp/python/2.7.14/python-2.7.14-macosx10.6.pkg), and install it on your computer. I **do not** recommend the installation described on the platform for Mac/OSX.
 <br><br>Also please install or attempt to install [Homebrew](https://brew.sh/). Go into your terminal and run:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
