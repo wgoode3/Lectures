@@ -1,7 +1,7 @@
 *.txt
 *.pdf
 *.odt
-*.docx
+# *.docx
 *.py
 curriculum_notes/
 demos/
