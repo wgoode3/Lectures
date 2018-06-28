@@ -1,6 +1,6 @@
 # Week 2 Day 5
 ## Responsive Web Design and Bootstrap
-<img src="https://camo.githubusercontent.com/5d417873a11d7175ec40fc3af3c6cb024a531dd7/68747470733a2f2f676574626f6f7473747261702e636f6d2f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap" width="200px">
+<img src="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)#/media/File:Boostrap_logo.svg" alt="Bootstrap" width="200px">
 
 ## Responsive Web Design
 
@@ -176,7 +176,7 @@ The ```form-group``` class applies proper form spacing. The ```form-control``` c
 
 ### Buttons
 
-We can also style buttons for out form. The ```.btn``` class styles the sizes and appearance of the button. ```btn-success``` gives additional style to the button specifically it makes the button green.
+We can also style buttons for our form. The ```.btn``` class styles the sizes and appearance of the button. ```btn-success``` gives additional style to the button specifically it makes the button green.
 
 ```html
 <input type="submit" value="Sign Up!" class="btn btn-success">
@@ -185,7 +185,7 @@ We can also style buttons for out form. The ```.btn``` class styles the sizes an
 Other colors can be applied similarly.
 
 | class         | color     |
-|:-------------:|:---------:|
+|---------------|-----------|
 | none          | grey      |
 | btn-primary   | blue      |
 | btn-secondary | grey      |
