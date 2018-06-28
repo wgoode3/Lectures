@@ -1,6 +1,6 @@
 # Week 2 Day 5
 ## Responsive Web Design and Bootstrap
-<img src="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)#/media/File:Boostrap_logo.svg" alt="Bootstrap" width="200px">
+<img src="https://en.bmstu.wiki/index.php?title=Bootstrap_(front-end_framework)&mobileaction=toggle_view_mobile#/media/File:Bootstrap.png" alt="Bootstrap" width="200px">
 
 ## Responsive Web Design
 
