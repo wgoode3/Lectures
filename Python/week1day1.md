@@ -30,8 +30,8 @@ def print1to255():
 ```
 
 1. <details> 
-    <summary>Why version 2.7 and not 3.6?</summary>
-    2.7 can be forward compatible with 3.6, but 3.6 is not backward compatible with 2.7. There are sill a lot of people using Python 2.7 as well. Some Python libraries may still work best in 2.7.
+    <summary>Why version 3.6 and not 2.7?</summary>
+    The changes between 3.6 and 2.7 are very minimal, and support for 2.7 will end in 2020. Most libraries written in 2.7 have versions for 3.6. 3.6 has some really nice improvements like the way division works and the way the range function works.
 </details>
 
 ### The Request Response Cycle
@@ -65,12 +65,12 @@ d = "abacus"
 ```python
 # the range method
 for i in range(1,11):
-    print i
-
+    print(i)
+    
 # the not range method
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for i in array:
-    print i
+    print(i)
 ```
 
 ### How can we write conditionals?
@@ -78,16 +78,16 @@ for i in array:
 thingThatIsTrue = True
 
 if thingThatIsTrue:
-    print "thingThatIsTrue is True"
+    print("thingThatIsTrue is True")
 
 aCertainNumber = 7
 
 if aCertainNumber % 2 == 0:
-    print "aCertainNumber is even"
+    print("aCertainNumber is even")
 elif aCertainNumber % 3 == 0:
-    print "aCertainNumber is divisible by three"
+    print("aCertainNumber is divisible by three")
 else:
-    print "aCertainNumber is neither of those things"
+    print("aCertainNumber is neither of those things")
 
 # it can read just like plain english
 
