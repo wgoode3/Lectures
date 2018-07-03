@@ -33,7 +33,7 @@ class Student(object):
         self.numberOfBelts += 1
         return self
     def say(self, thing):
-        print self.name, "says", thing
+        print(self.name, "says", thing)
         return self
 ```
 
@@ -60,7 +60,7 @@ class Student(object):
 
 ```python
 student1.addBelt().addBelt()
-print student1.numberOfBelts
+print(student1.numberOfBelts)
 ```
 
 7. <details>
@@ -79,7 +79,7 @@ class Person(object):
         self.name = name
         self.email = email
     def say(self, thing):
-        print self.name, "says", thing
+        print(self.name, "says", thing)
 
 class Student(Person):
     def __init__(self, name, email):
@@ -125,12 +125,12 @@ Give the following code a try sometime.
 
 ```python
 from datetime import datetime
-print datetime.now()
-print datetime.now().strftime("%m/%d/%Y")
+print(datetime.now())
+print(datetime.now().strftime("%m/%d/%Y"))
 
 from random import random, randrange
-print random()
-print randrange(1,11)
+print(random())
+print(randrange(1,11))
 ```
 
 ## Multi-Arguments
@@ -138,13 +138,13 @@ print randrange(1,11)
 ```python
 def testingArgs(*args):
     for arg in args:
-        print arg
+        print(arg)
 
 testingArgs("hello", 2, False)
 
 def testingKwargs(**kwargs):
     for kw in kwargs:
-        print kw, kwargs[kw]
+        print(kw, kwargs[kw])
 
 testingKwargs(color="red", number=6, price="$5.99")
 ```
