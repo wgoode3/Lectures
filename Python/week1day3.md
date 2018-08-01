@@ -24,7 +24,7 @@
 ## How do we write a class?
 
 ```python
-class Student(object):
+class Student:
     def __init__(self, name, email):
         self.name = name
         self.email = email
@@ -74,7 +74,7 @@ print(student1.numberOfBelts)
 We can rewrite the above Student class into two seperate classes to illustrate inheritance.
 
 ```python
-class Person(object):
+class Person:
     def __init__(self, name, email):
         self.name = name
         self.email = email
