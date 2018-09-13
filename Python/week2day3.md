@@ -91,7 +91,7 @@ if __name__ == "__main__":
 <details>
     <summary>In our server.py, when we run <code>mysql.query_db("SELECT * FROM users;")</code> which variable of query_db is <code>"SELECT * FROM users;"</code>?</summary>
     This string is the query variable.
-</details>
+</details><br>
 
 <details>
     <summary>What is <code>query.lower().find("insert")</code> checking for? What about <code>query.lower().find("select")</code>?</summary>
