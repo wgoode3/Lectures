@@ -72,5 +72,10 @@ if __name__ == "__main__":
 
 <details>
   <summary>When we run <code>server.py</code> what happens with our <code>mysqlconnection.py</code></summary>
-  lorem ipsum
+    We create a variable called <code>mysql</code> and set it equal to what is returned by the function <code>connectToMySQL('mydb')</code>.
+</details>
+
+<details>
+    <summary>What does <code>connectToMySQL(db)</code> in our <code>mysqlconnection.py</code> return?</summary>
+    It returns an instance of the MySQLConnection class.
 </details>
