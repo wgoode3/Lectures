@@ -5,7 +5,7 @@ Congratulations on completing web fundamentals! I have just unlocked the Python 
 <img src="https://www.python.org/static/opengraph-icon-200x200.png" alt="Python" width="200px">
 
 ### (Please attempt this) 
-I would like everyone to make an attempt at installing Python 3.6 on your computer. 
+I would like everyone to make an attempt at installing Python 3 on your computer. 
 
 * If you use the **Windows** operating system, follow the directions outlined 
 [here](http://learn.codingdojo.com/m/72/5469/35282). There are known issues using Python with Git Bash, you can see about fixing them [here](http://learn.codingdojo.com/m/72/5470/35286).
@@ -24,7 +24,7 @@ I would like everyone to make an attempt at installing Python 3.6 on your comput
 
 **A.** Open your terminal/command line and type the following: 
 ```
-python --version
+python3 -V
 ```
 It will tell you the version of python you have installed, anything from 3.6.4 or newer should be fine.
 
@@ -36,7 +36,7 @@ It will tell you the version of python you have installed, anything from 3.6.4 o
 ```
 pip -V
 ```
-It will tell you the version of pip you have installed, the current version is 9.0.1
+It will tell you the version of pip you have installed.
 
 <hr>
 
