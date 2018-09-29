@@ -16,17 +16,17 @@ I would like everyone to make an attempt at installing Python 3 on your computer
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
 ```
  
-* If you use a **GNU/Linux** operating system you may already have Python 3.6 installed.
+* If you use a **GNU/Linux** operating system you may already have Python 3 installed.
 
 <hr>
 
-**Q.** How to check that Python 3.6 is installed?
+**Q.** How to check that Python 3 is installed?
 
 **A.** Open your terminal/command line and type the following: 
 ```
 python3 -V
 ```
-It will tell you the version of python you have installed, anything from 3.6.4 or newer should be fine.
+It will tell you the version of python you have installed, anything from 3.6 or newer should be fine.
 
 <hr>
 
