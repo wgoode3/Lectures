@@ -83,13 +83,13 @@ class Person:
 
 class Student(Person):
     def __init__(self, name, email):
-        super(Student, self).__init__(name, email)
+        super().__init__(name, email)
         self.numberOfBelts = 0
     def addBelt(self):
         self.numberOfBelts += 1
         return self
     def show(self):
-        print self.name, "has", self.numberOfBelts, "belt(s)"
+        print(self.name, "has", self.numberOfBelts, "belt(s)")
         return self
 ```
 
