@@ -21,10 +21,10 @@ We can install virtualenvironment using:
 
 We can create a virtualenvironment named ```flaskEnv``` using:
 
-| OS         | Command                       |
-|:----------:|:-----------------------------:|
-| Mac/Linux: | virtualenv flaskEnv           |
-| Windows:   | python -m virtualenv flaskEnv |
+| OS         | Command                                  |
+|:----------:|:----------------------------------------:|
+| Mac/Linux: | virtualenv flaskEnv -p python3           |
+| Windows:   | python -m virtualenv flaskEnv -p python3 |
 
 We can activate a virtualenvironment named ```flaskEnv``` using:
 
