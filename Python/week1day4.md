@@ -121,7 +121,7 @@ They are used to allow users to interact with our website and request additional
 
 We can create additional routes by adding them to the ```server.py```.
 
-```
+```python
 @app.route("/another_route")
 def another_function():
 	return render_template("another.html")
