@@ -58,9 +58,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	return "Hello World!"
+    return "Hello World!"
 
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
 
 ```
 
@@ -97,9 +98,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	return render_template("index.html")
+    return render_template("index.html")
 
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
 ```
 
 ### Routing
@@ -136,16 +138,16 @@ To link to static files we can create a new folder called static. In order to ke
 
 ```
 |-> HelloWorld/
-	|-> server.py
-	|-> templates/
-		|-> index.html
-	|-> static/
-		|-> css/
-			|-> style.css
-		|-> js/
-			|-> script.js
-		|-> img/
-			|-> flask.png
+    |-> server.py
+    |-> templates/
+        |-> index.html
+    |-> static/
+        |-> css/
+            |-> style.css
+        |-> js/
+            |-> script.js
+        |-> img/
+            |-> flask.png
 ```
 
 Then we can use the following tags to access these in our ```index.html```.
