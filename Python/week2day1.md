@@ -2,8 +2,6 @@
 
 ## SQL, MySQL, and ERDs  
 
-<img src="https://d1eq8vvyuam4eq.cloudfront.net/sql_logo.svg?ver=1520522243" alt="SQL" width="300px">
-
 ### SQL and MySQL
 
 1. <details> 
