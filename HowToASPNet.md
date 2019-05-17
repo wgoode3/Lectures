@@ -116,7 +116,7 @@ namespace Pandas.Models
 }
 ```
 
-## Dependency Injecting the Context class into our Controller
+### Dependency Injecting the Context class into our Controller
 
 Assuming you have renamed ```HomeController.cs``` to ```PandaController.cs```, make sure to add the following at the top of the class...
 
