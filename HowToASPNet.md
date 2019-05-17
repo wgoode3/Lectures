@@ -116,30 +116,6 @@ namespace Pandas.Models
 }
 ```
 
-## Migrations
-
-Before we create the schema and tables in MySQL, we should check out the ```appsettings.json```.
-
-### In appsettings.json
-
-Make sure the ```"ConnectionString"``` contains the correct ```userid```, ```password```, and ```port``` for our database. 
-We also can choose our schema name with ```database```. In this case it will be called ```pandadb```.
-
-```js
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Warning"
-    }
-  },
-  "AllowedHosts": "*",
-  "DBInfo": {
-    "Name": "MySqlConnection",
-    "ConnectionString": "server=localhost;userid=root;password=root;port=3306;database=pandadb;SslMode=None"
-  }
-}
-```
-
 ## Dependency Injecting the Context class into our Controller
 
 Assuming you have renamed ```HomeController.cs``` to ```PandaController.cs```, make sure to add the following at the top of the class...
@@ -163,6 +139,30 @@ namespace Pandas.Controllers
 ```
 
 We will create a private field and a constructor to dependency inject ```PandaContext``` into our ```PandaController``` as ```context```.
+
+## Migrations
+
+Before we create the schema and tables in MySQL, we should check out the ```appsettings.json```.
+
+### In appsettings.json
+
+Make sure the ```"ConnectionString"``` contains the correct ```userid```, ```password```, and ```port``` for our database. 
+We also can choose our schema name with ```database```. In this case it will be called ```pandadb```.
+
+```js
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "DBInfo": {
+    "Name": "MySqlConnection",
+    "ConnectionString": "server=localhost;userid=root;password=root;port=3306;database=pandadb;SslMode=None"
+  }
+}
+```
 
 ### Making migrations
 
