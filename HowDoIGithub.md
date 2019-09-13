@@ -61,11 +61,12 @@ Try to keep the message short and descriptive about what you are committing. For
 
 Go to github.com and make a new Repository...
 
-<INSERT IMAGES HERE />
+<img src="https://raw.githubusercontent.com/wgoode3/Lectures/master/newrepo.png" alt="screenshot" />
+<img src="https://raw.githubusercontent.com/wgoode3/Lectures/master/namerepo.png" alt="screenshot" />
 
 ### Step 5 - Add the Github Repository as a Remote
 
-<INSERT IMAGES HERE />
+<img src="https://raw.githubusercontent.com/wgoode3/Lectures/master/addorigin.png" alt="screenshot" />
 
 ```shell
 git remote add origen https://github.com/your_username/your_repo_name.git
