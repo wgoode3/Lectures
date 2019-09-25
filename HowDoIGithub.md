@@ -69,7 +69,7 @@ Go to github.com and make a new Repository...
 <img src="https://raw.githubusercontent.com/wgoode3/Lectures/master/addorigin.png" alt="screenshot" />
 
 ```shell
-git remote add origen https://github.com/your_username/your_repo_name.git
+git remote add origin https://github.com/your_username/your_repo_name.git
 ```
 
 **Note** make sure you upload using ```https``` and not using ```ssh```.
