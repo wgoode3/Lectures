@@ -17,7 +17,7 @@ mkdir controllers models utils
 ### Run npm init
 
 ```shell
-npm init
+npm init -y
 ```
 
 #### (Optional) Modify package.json, set the "start" script to ```nodemon server.js```
