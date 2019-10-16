@@ -44,3 +44,14 @@ yarn create react-app client
 # OR use create-react-app
 create-react-app client
 ```
+
+### Install the front-end dependencies
+
+```shell
+cd client
+yarn add axios react-router react-router-dom
+# OR using npm
+npm i axios react-router react-router-dom --save
+```
+
+### TODO - add more steps
