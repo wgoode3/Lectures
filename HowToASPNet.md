@@ -8,6 +8,7 @@ Create a new project (called ```Pandas``` in this case) and <abbr title="change 
 # assuming you have the dojo template installed
 dotnet new dojo -o Pandas
 cd Pandas
+dotnet add package MySql.Data -v 8.0.16
 ```
 
 ### Adding a database connection
