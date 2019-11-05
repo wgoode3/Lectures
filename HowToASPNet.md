@@ -4,11 +4,10 @@
 
 Create a new project (called ```Pandas``` in this case) and <abbr title="change directory">cd</arrb> into it.
 
-```
+```shell
 # assuming you have the dojo template installed
-dotnet new dojo -o Pandas
+dotnet new mvc -o Pandas --no-https
 cd Pandas
-dotnet add package MySql.Data -v 8.0.16
 ```
 
 ### Adding a database connection
